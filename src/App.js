@@ -26,6 +26,12 @@ function App() {
         <img src={logo} alt="college logo" />
         <h4>BCA 2nd Semester Board Result</h4>
         <h5>( 2019/20 )</h5>
+        <div>
+          <button className="btn btn-primary">Unit Test</button>
+          <button className="btn btn-success">2nd Term</button>
+          <button className="btn btn-warning">Pre-Board</button>
+          <button className="btn btn-danger">Board</button>
+        </div>
       </header>
       <table className="table table-hover table-bordered">
         <thead>
@@ -33,11 +39,11 @@ function App() {
             <th>S.N.</th>
             <th scope="col"> RollNo </th>
             <th scope="col"> Name </th>
-            <th scope="col"> DSA </th>
-            <th scope="col"> JAVA </th>
-            <th scope="col"> SAD </th>
-            <th scope="col"> WEB </th>
-            <th scope="col"> STAT </th>
+            <th scope="col"> C Programming </th>
+            <th scope="col"> Financial Accounting </th>
+            <th scope="col"> English-II </th>
+            <th scope="col"> Mathematics-II </th>
+            <th scope="col"> Microprocessor & Architecture </th>
             <th scope="col">Total</th>
           </tr>
         </thead>
