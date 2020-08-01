@@ -4,6 +4,22 @@ import StudentData from './Components/StudentData';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import logo from './img/logo2.jpg';
 
+function unitTest(){
+  alert('You clicked Unit Test');
+}
+
+function secondTerm(){
+  alert('You clicked second term');
+}
+
+function preBoard(){
+  alert('You clicked pre-board');
+}
+
+function board(){
+  alert('You clicked board');
+}
+
 function App() {
   const studentComponent = StudentData.map(
     student =>
@@ -27,10 +43,10 @@ function App() {
         <h4>BCA 2nd Semester Board Result</h4>
         <h5>( 2019/20 )</h5>
         <div>
-          <button className="btn btn-primary">Unit Test</button>
-          <button className="btn btn-success">2nd Term</button>
-          <button className="btn btn-warning">Pre-Board</button>
-          <button className="btn btn-danger">Board</button>
+          <button className="btn btn-primary" onClick={unitTest}>Unit Test</button>
+          <button className="btn btn-success" onClick={secondTerm}>2nd Term</button>
+          <button className="btn btn-warning" onClick={preBoard}>Pre-Board</button>
+          <button className="btn btn-danger" onClick={board}>Board</button>
         </div>
       </header>
       <table className="table table-hover table-bordered">
